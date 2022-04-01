@@ -41,7 +41,7 @@ static int do_getattr(const char *path, struct stat *st)
 		 * st_size = 1024 bytes for files is set here
 		 */
 		
-		//This block of code is executed for root directory of SSFS 
+		//This block of code is executed for root directory of SIMF 
 		st-> st_mode = S_IFDIR | 0755 ; 
 		st-> st_nlink = 2;
 	}
