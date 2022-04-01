@@ -88,9 +88,9 @@ static int do_read(const char *path, char *buffer,size_t size, off_t offset, str
 	 * 
 	 */
 	char file001text[26] = "Hewwo There from file001"; //Content of file001
-	file001text[25] = 04;
+	file001text[25] = 04; //Manual EOF insertion
 	char file002text[26] = "Hewwo World form file002"; //Content of file002
-	file002text[25] = 04;
+	file002text[25] = 04; //Manual EOF insertion
 	char *selectedText = NULL;//pointer to hold file data later
 
 	if(strcmp(path,"/file001")== 0 ){
