@@ -22,7 +22,7 @@ For RHEL/Fedora/CentOS:-
 
 **Running the project**  
 
-Navigate to the directory containing `sims` executable and run the following commands:-   
-**1.** `chmod 744 sims` *to make `sims`executeable.*
+Navigate to the directory containing `simf` executable and run the following commands:-   
+**1.** `chmod 744 simf` *to make `simf`executeable.*
 
-**2.** `./sims -f [mount_point]`
+**2.** `./simf -f [mount_point]`
