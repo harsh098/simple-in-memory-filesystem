@@ -18,7 +18,7 @@ For RHEL/Fedora/CentOS:-
 `sudo yum install fuse fuse-devel`
 
 **2.**  Run the following command  
-`gcc simf.c -o sims 'pkg-config fuse --cflags --libs'`
+`gcc simf.c -o simf 'pkg-config fuse --cflags --libs'`
 
 **Running the project**  
 
